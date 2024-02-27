@@ -1,0 +1,21 @@
+{
+    "name": "abhaeces/ezdguvy-m2",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "gr423traro",
+            "email": "skeletron1337@mail.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.4 | ^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Src\\": "core/Src/",
+            "": "app/"
+        }
+    }
+}
